@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SiLIVE_Unblocker",
+  "version": "1.1.0",
+  "description": "Removes blur effects from every tab on a website after you enable it once.",
+  "permissions": ["activeTab", "scripting"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "action": {
+    "default_title": "Unblur this website"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
